@@ -37,7 +37,7 @@ mark{background:linear-gradient(177deg,transparent 25%,#f9edb2 29%,#f9edb2 88%,t
 .annotated-study{position:relative;padding:90px 42px 0;background:#f7f8f7}
 .study-crop{aspect-ratio:2.35;overflow:hidden;border:1px solid var(--line);background:white}
 .study-crop img{width:100%;height:auto;display:block;transform:translateY(-14.5%)}
-.final-study-crop img{transform:none}
+.final-study-crop img{transform:translateY(-3.2%)}
 .annotated-study figcaption{padding:16px 0;font-size:11px}
 .sketch-overlay{position:absolute;inset:0 0 auto;width:100%;height:calc(100% - 48px);pointer-events:none;overflow:visible}
 .sketch-overlay path{fill:none;stroke:var(--accent);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
